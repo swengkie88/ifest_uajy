@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- This is CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ifest</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg position-fixed">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wisata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="bannersection">
+        <div class="bannercontent">
+            <div class="container">
+                <h1>Temukan Wisata Terbaik di Yogyakarta</h1>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section id="search-destination" class="section-index">
+        <div class="filter-search-dest"></div>
+        <div class="container">
+            <div class="row section-header">
+                <div class="col-md-12">
+                    <h2>Temukan Wisata Sesuai Dengan Anda</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-11">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label>Destinasi</label>
+                                <input type="text" class="form-control" placeholder="Masukkan destinasi">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>Tempat Wisata</label>
+                                <input type="text" class="form-control" placeholder="Alam/pantai/atau apapun">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputCity">Budget Kamu</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label>.</label>
+                                <button class="btn btn-primary btn-block my-2 my-sm-0" type="submit">Cari</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best destination start -->
+    <section id="best-destination" class="section-index">
+        <div class="container">
+            <div class="row section-header">
+                <div class="col-md-12">
+                    <h2>Destinasi Terbaik</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/bukit-bintang.jpg" alt="bukit-bintang.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/wediombo.png" alt="wediombo.png">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/prambanan.jpg" alt="prambanan.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/pule-payung.jpg" alt="pule-payung.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/merapi.jpg" alt="merapi.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/kesirat.jpg" alt="kesirat.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/malioboro.jpg" alt="malioboro.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-destinasi">
+                        <img src="assets/img/heha.jpg" alt="heha.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Best destination stop -->
+
+    <!-- This is javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
